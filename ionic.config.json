@@ -1,0 +1,7 @@
+{
+  "name": "Firmins",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
