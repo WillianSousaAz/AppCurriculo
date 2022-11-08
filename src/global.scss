@@ -12,6 +12,8 @@
 /* Core CSS required for Ionic components to work properly */
 @import "~@ionic/angular/css/core.css";
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
 /* Basic CSS for apps built with Ionic */
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
@@ -24,3 +26,24 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+    font-family: "Poppins", sans-serif !important;
+}
+
+.full_div{
+    width: 100%;
+    min-height: 100%;
+}
+
+.animate__animated.animate__fadeInRight {
+    --animate-duration: 0.6s;
+}
+

@@ -1,0 +1,33 @@
+.center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 200px;
+    }
+}
+.center_b{
+    display: none;
+}
+@media (prefers-color-scheme: dark) {
+    .center{
+        display: none;
+    }
+    .center_b{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 200px;
+        }
+    }
+}
+ion-content{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
